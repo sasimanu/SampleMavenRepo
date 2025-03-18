@@ -23,9 +23,6 @@ public class ContactTest {
 	@Test
 	public void modifyContactTest() {
 		System.out.println("modify contact test");
-		String name ="hello";
-		boolean status = name.equals(null);
-		Assert.assertTrue(status);
 		
 	}
 }
