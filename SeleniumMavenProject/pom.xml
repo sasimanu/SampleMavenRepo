@@ -48,7 +48,7 @@
 		</profile>
 		
 <profile>
-<id>TT</id>
+<id>FT</id>
 <build>
   <plugins>
     <plugin>
