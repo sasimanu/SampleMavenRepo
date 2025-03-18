@@ -8,13 +8,16 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">77</td><td></td><td></td></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">133</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.comcast.package1.ContactTest</td><td><a href="#m0">createContactTest</a></td><td rowspan="1">1742213978006</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m1">modifyContactTest</a></td><td rowspan="1">1742213978009</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">com.comcast.package2.OrgTest</td><td><a href="#m2">createOrgTest</a></td><td rowspan="1">1742213977988</td><td rowspan="1">8</td></tr><tr class="passedodd"><td><a href="#m3">modifyOrgTest</a></td><td rowspan="1">1742213978001</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.comcast.package1.ContactTest</td><td><a href="#m0">modifyContactTest</a></td><td rowspan="1">1742289512797</td><td rowspan="1">24</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.comcast.package1.ContactTest</td><td><a href="#m1">createContactTest</a></td><td rowspan="1">1742289512780</td><td rowspan="1">11</td></tr><tr class="passedodd"><td rowspan="2">com.comcast.package2.OrgTest</td><td><a href="#m2">createOrgTest</a></td><td rowspan="1">1742289512839</td><td rowspan="1">3</td></tr><tr class="passedodd"><td><a href="#m3">modifyOrgTest</a></td><td rowspan="1">1742289512849</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.comcast.package1.ContactTest#createContactTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.comcast.package1.ContactTest#modifyContactTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.comcast.package1.ContactTest#modifyContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.comcast.package1.ContactTest.modifyContactTest(ContactTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.comcast.package1.ContactTest#createContactTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.comcast.package2.OrgTest#createOrgTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.comcast.package2.OrgTest#modifyOrgTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

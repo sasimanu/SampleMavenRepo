@@ -1,5 +1,6 @@
 package com.comcast.package1;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ContactTest {
@@ -22,5 +23,9 @@ public class ContactTest {
 	@Test
 	public void modifyContactTest() {
 		System.out.println("modify contact test");
+		String name ="hello";
+		boolean status = name.equals(null);
+		Assert.assertTrue(status);
+		
 	}
 }
